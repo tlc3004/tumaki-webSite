@@ -1,0 +1,88 @@
+
+
+[
+    {
+        "id": 1,
+        "nombre": "Classic Furay",
+        "descripcion": "Roll de salmón fresco, aguacate, Queso Crema, recubierto con Pánko y Frito",
+        "imagen": "IMAGES/furaymaki.png"
+    },
+    {
+        "id": 2,
+        "nombre": "California Premium",
+        "descripcion": "Maki clásico con ebifuray, aguacate, queso crema cubierto con Semillas de sésamo Blanco y   Tostado",
+        "imagen": "IMAGES/makicalifornia.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Gunkan Deluxe",
+        "descripcion": "Selección de gunkan con atún picante, salmón y ebi(langostino)",
+        "imagen": "IMAGES/gunkans.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Traditional Hoso Maki ",
+        "descripcion": "Maki tradicional envuelto en alga Nori con pepino fresco y salmón de primera calidad",
+        "imagen": "IMAGES/hosomaki.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Nigiri Selection",
+        "descripcion": "Selección premium de nigiris de salmón fresco ",
+        "imagen": "IMAGES/nigiris.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Especial TUMAKI",
+        "descripcion": "Nuestra creación signature con salmón, huevas rojas y salsa secreta",
+        "imagen": "IMAGES/especialmaki.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Deluxe Gunkans Experience",
+        "descripcion": "Gunkans con estilo y presentación elegante con huevas rojas seleccionadas, ebi y cangrejo",
+        "imagen": "IMAGES/deluxemaki.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Salmon Lover",
+        "descripcion": "Para los amantes del salmón: roll generoso con salmón fresco y aguacate",
+        "imagen": "IMAGES/makisalmon.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Sashimi Atun",
+        "descripcion": "A los culinarios del buen sabor, Sashimi de Atún fresco ",
+        "imagen": "IMAGES/sashimiatun.png"
+    },
+    {
+        "id": 10,
+        "nombre": "Yakuza Maki",
+        "descripcion": "Maki muy Japonés con Atún fresco, queso crema, cubierto con laminas de aguacate y bañado en salsa Tare",
+        "imagen": "IMAGES/yakuzamaki1.png"
+    },
+    {
+        "id": 11,
+        "nombre": "Salmon Legendary",
+        "descripcion": "Para los amantes del salmón fresco y aguacate. Una delicia con clase y estilo unico en su sabor",
+        "imagen": "IMAGES/yakuzamaki.png"
+    },
+    {
+        "id": 12,
+        "nombre": "Selection Furay ",
+        "descripcion": "Nuestra version al estilo y sabor Japones. Un sueño en cada bocado",
+        "imagen": "IMAGES/furaymaki1.png"
+    },
+    {
+        "id": 13,
+        "nombre": "Sashimi Salmón",
+        "descripcion": "Cortez de Salmón fresco en su presentacion estilo nikkei",
+        "imagen": "IMAGES/sashimisalmon.png"
+    },
+    {
+        "id": 14,
+        "nombre": "Nigiris Mixlover",
+        "descripcion": "Nigiris de Salmón y Atún en una mezcla Imperial y tracidicional ",
+        "imagen": "IMAGES/nigiris1.png"
+    }
+    ]

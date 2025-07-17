@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/BoletaReserva.css">
+  <title>Boleta de Reserva</title>
+</head>
+<body>
+  <audio src="SOUNDS/notification-3-125767.mp3" autoplay></audio>
+  <div class="boleta-reserva">
+    <div class="reserva-header">
+      <div class="reserva-logo">🍣</div>
+      <div>
+        <h2>Reserva Tumaki</h2>
+        <small>Número de reserva: #TKM-202507</small>
+      </div>
+    </div>
+
+    <form>
+      <div class="reserva-info-grid">
+        <div class="reserva-info-row">
+          <span>Nombre:</span>
+          <span><input type="text" name="nombre" id="nombre" disabled></span>
+        </div>
+
+        <div class="reserva-info-row">
+          <span>Fecha:</span>
+          <span><input type="date" name="fecha" id="fecha" disabled></span>
+        </div>
+
+        <div class="reserva-info-row">
+          <span>Hora:</span>
+          <span><input type="time" name="hora" id="hora" disabled></span>
+        </div>
+
+        <div class="reserva-info-row">
+          <span>Número de personas:</span>
+          <span><input type="number" name="personas" id="personas" disabled></span>
+          <small class="reserva-numero">#TKM-202507</small>
+        </div>
+
+        <div class="reserva-info-row">
+          <span>Comentario:</span>
+          <span><textarea name="comentario" id="comentarios" rows="2" disabled></textarea></span>
+        </div>
+      </div>
+
+      <div class="reserva-details">
+        <div class="detail-row">
+          <span>Estado:</span>
+          <span class="reserva-status">Pendiente</span>
+        </div>
+        <button type="button" class="close-button"><a href="index.html"></a>Cancelar</button>
+        <button>Proceder al Pago</button>
+      </div>
+      <a href="index.html"><button type="button" class="modal-close-button" >ATRAS</button></a>
+
+      <div class="reserva-footer">
+        <p>Nos comunicaremos contigo para confirmar la reserva. ¡Gracias por elegir Tumaki!</p>
+        <div >
+  </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="JS/boleta-reserva-js"></script>
+</body>
+</html>

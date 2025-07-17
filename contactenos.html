@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/contactenos.css">
+  <link rel="stylesheet" href="CSS/RollitoAnimado.css">
+  <title>Tumaki Sushi</title>
+</head>
+<body>
+
+  <!-- NAV -->
+
+  <main class="informacion-container">
+  <!-- TÍTULO PRINCIPAL -->
+  <h2 style="text-align:center; margin-top: 1rem;"><strong>¡¡¡¡ DEJANOS TU COMENTARIO !!!!</strong></h2>
+
+  <!-- COMENTARIO Y SECCIÓN INFORMATIVA -->
+    <section>
+      <textarea name="texto" id="textarea" class="texto" placeholder="Escribe tu comentario"></textarea>
+
+      <figure>
+        <img src="IMAGES/especialmaki.png" alt="Maki Especial"
+        class="maki" />
+      </figure>
+
+      <h3 id="menu">🍱 Nuestro Menú</h3>
+      <p>
+        Ofrecemos una selección de nigiri, sashimi, rolls especiales, sopas miso, entradas calientes y postres japoneses.
+        También contamos con opciones vegetarianas y veganas.
+      </p>
+
+      <h3 id="nosotros">👨‍🍳 Sobre Nosotros</h3>
+      <p>
+        Somos apasionados por la cultura japonesa y la excelencia culinaria. En <strong>Tumaki Sushi</strong>, cada plato es una obra de arte que refleja tradición y creatividad.
+      </p>
+    </section>
+  </main>
+
+  <!-- FORMULARIO DE SUSCRIPCIÓN -->
+  <section aria-label="Suscripción de novedades">
+    <div class="informacion-container">
+      <article>
+        <h2>📩 Suscríbete a nuestras novedades</h2>
+        <h3>Recibe promociones y eventos exclusivos en tu correo</h3>
+        <div id="rollito" class="rollito-animado5">
+      <img src="IMAGES/rollito_animado.png" alt="Rollito animado" class="rollito" />
+      <div class="saludo5" id="mano">👋</div>
+    </div>
+        
+        <form class="informacion-container" onsubmit="event.preventDefault()">
+          <input type="text" id="firstname" name="firstname" placeholder="Tu nombre" aria-label="Tu nombre" required />
+          <input type="email" id="email" name="email" placeholder="Tu correo electrónico" aria-label="Correo electrónico" required />
+          <button type="submit" id="send">Suscribirme</button>
+          
+          <!-- ROLLITO ANIMADO -->
+    </form>
+    </article>
+      
+      <!-- BOTÓN DE REGRESO -->
+      <div >
+        <a href="index.html">
+          <button class="modal-close-button">ATRÁS</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

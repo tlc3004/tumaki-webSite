@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PEDIDOS | Tumaki</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="stylesheet" href="CSS/Pedidos.css" />
+</head>
+<body>
+
+  <!-- AUDIO de entrada -->
+  <audio class="sfx-chime" src="SOUNDS/chimes-sound-effects-hq-325255.mp3"></audio>
+
+
+  <!-- 🎯 SECCIÓN DE PEDIDOS -->
+  <section class="galeria-pedidos">
+    <h2 class="titulo-seccion" style="color: aliceblue;">Escoja Su Pedido</h2>
+    <div id="contenedor-productos" class="contenedor-pedidos"></div>
+  </section>
+
+  <!-- 🔙 BOTÓN VOLVER -->
+  <div style="text-align: center;">
+    <a href="index.html"><button class="modal-close-button">ATRÁS</button></a>
+  </div>
+
+  <!-- 🧾 SIDEBAR DEL CARRITO -->
+  <div class="sidebar-carrito" id="sidebar-carrito">
+    <div class="sidebar-header">
+      Tu Pedido
+      <button id="cerrar-carrito">&times;</button>
+    </div>
+    <div class="sidebar-content" id="contenido-carrito">
+      <p class="carrito-empty">Tu carrito está vacío.</p>
+    </div>
+    <div class="sidebar-footer">
+      <div class="carrito-total">
+        <span>Total:</span><span id="total-precio">S/ 0.00</span>
+      </div>
+      <button class="finalize-order-button" disabled><a href="boleta-pedidos.html">Finalizar Pedido</a></button>
+    </div>
+  </div>
+
+  <!-- 🛒 BOTÓN FLOTANTE -->
+  <button class="floating-cart-button" id="btn-carrito">
+    🛒<span class="cart-badge" id="cart-count">0</span>
+  </button>
+
+  <script src="JS/pedidos.js"></script>
+</body>
+</html>

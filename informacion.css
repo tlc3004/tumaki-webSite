@@ -1,0 +1,95 @@
+:root {
+  --primary-color: #e6005a; /* Rosado japonés intenso */
+  --text-color: #333;
+  --border-radius: 10px;
+  --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+}
+
+/* ========== FORMULARIOS Y BOTONES ========== */
+input,
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: var(--border-radius);
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+button:hover {
+  background-color: #b80045;
+}
+
+
+.informacion-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.informacion-container section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-light);
+}
+
+.informacion-container h4 {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+
+.informacion-container p {
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.informacion-container strong {
+  color: var(--primary-color);
+}
+
+.informacion-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.informacion-container li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.informacion-container li:last-child {
+  border-bottom: none;
+}
+
+/* ========== FONDOS POR SECCIÓN ========== */
+.historia {
+  background: linear-gradient(135deg, #fffefef2, #f8f9faf0);
+}
+
+.horarios {
+  background: linear-gradient(135deg, #f8f9faf0, #fffefef2);
+}
+
+.ubicacion {
+  background: linear-gradient(135deg, #fffefef2, #f8f9faf0);
+}
+
+.especialidades {
+  background: linear-gradient(135deg, #f8f9faf0, #fffefef2);
+}
+
+.certificaciones {
+  background: linear-gradient(135deg, #fffefef2, #f8f9faf0);
+}

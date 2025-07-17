@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="IMAGES/logo193.png" type="image/png" />
+
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Tumaki Sushi Bar 🍣</title>
+</head>
+<body>
+    <!-- ========== HEADER ========== -->
+    <header class="header">
+        <audio id="sfx-gong" src="SOUNDS/gong-hit-1-184011.mp3" ></audio>
+        <audio id="sfx-chime" src="SOUNDS/chimes-sound-effects-hq-325255.mp3"></audio>
+        <audio id="sfx-toast" src="SOUNDS/notification-3-125767.mp3"></audio>
+
+        <!-- Slider de rollitos -->
+        <div class="slider-rollitos" id="slider-rollitos">
+            <img src="IMAGES/rollito_1.png">
+            <img src="IMAGES/rollito_9.png">
+            <img src="IMAGES/rollito_2.png">
+            <img src="IMAGES/rollito_3.png">
+            <img src="IMAGES/rollito_4.png">
+            <img src="IMAGES/rollito_5.png">
+            <img src="IMAGES/rollito_6.png">
+            <img src="IMAGES/rollito_7.png">
+            <img src="IMAGES/rollito_8.png">
+            <img src="IMAGES/rollito_10.png">
+            <img src="IMAGES/rollito_1.png">
+            <img src="IMAGES/rollito_9.png">
+            <img src="IMAGES/rollito_2.png">
+            <img src="IMAGES/rollito_3.png">
+            <img src="IMAGES/rollito_4.png">
+            <img src="IMAGES/rollito_5.png">
+            <img src="IMAGES/rollito_6.png">
+            <img src="IMAGES/rollito_7.png">
+            <img src="IMAGES/rollito_8.png">
+            <img src="IMAGES/rollito_10.png">
+            <img src="IMAGES/rollito_1.png">
+            <img src="IMAGES/rollito_9.png">
+        </div>
+
+        <!-- Branding -->
+        <div class="header-content">
+            <div class="branding">
+                <h2>SUSHI BAR NIKKEI</h2>
+                <h1>TUMAKI</h1>
+            </div>
+
+            <!-- Navegación -->
+            <nav class="nav-buttons">
+                <a href="carta.html"><button class="main button" id="btn-carta" title="Carta">Carta</button></a>
+                <a href="pedidos.html"><button class="main button" id="btn-pedidos" title="Pedidos">Pedidos</button></a>
+                <a href="reservas.html"><button class="main button" id="btn-reservas" title="Reservas">Reservas</button></a>
+                <a href="nosotros.html"><button class="main button" id="btn-nosotros" title="Nosotros">Nosotros</button></a>
+                <a href="contactenos.html"><button class="main button" id="btn-contacto" title="Contactenos">Contactenos</button></a>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <!-- Rollito animado con saludo -->
+    <div id="rollito" class="rollito-animado">
+        <img src="IMAGES/rollito_animado.png" alt="rollito-animado" class="rollito" />
+        <div class="saludo">👋</div>
+    </div>
+
+    <!-- Contenedores dinámicos -->
+    <div id="modal-container"></div>
+    <div id="toast-container"></div>
+
+    <!-- Footer -->
+    <footer class="footer-content">
+        <img id="logo" src="IMAGES/logo193.png" alt="logo" class="logo-footer" />
+        <p class="text">
+            <span>&copy; 2025 </span> Website created by
+            <strong><a href="mailto:leonantoniobm@gmail.com" title="gmail">Antonio Leon Chong</a></strong>
+            <a href="https://tumaki.vercel.app/" title="tumaki.vercel.app">tumaki.vercel.app</a>
+            <small>
+                <a href="politica_de_Privacidad.html" title="política de privacidad">Política de Privacidad</a>
+                <a href="terminos_y_condiciones.html" title="términos y condiciones">Términos y Condiciones</a>
+            </small>
+        </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="JS/modal.js"></script>
+    <script src="JS/toast.js"></script>
+    <script src="JS/carta.js"></script>
+    <script src="JS/pedidos.js"></script>
+    <script src="JS/reservas.js"></script>
+    <script src="JS/info.js"></script>
+    <script src="JS/contacto.js"></script>
+    <script src="JS/index.js"></script>
+    <script src="JS/slider.js"></script>
+</body>
+</html>

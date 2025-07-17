@@ -1,0 +1,51 @@
+.rollito-animado {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 999;
+}
+
+.rollito {
+  width: 60px;
+  height: auto;
+  animation: aparecer 0.5s ease-in-out;
+}
+
+.saludo {
+  font-size: 2.5rem;
+  animation: saludar 0.7s linear infinite;
+  transform-origin: bottom center;
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: .5rem;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+  transition: var(--transition);
+  border-radius: var(--border-radius);
+}
+
+.modal-close-button:hover {
+  background-color: #c3004d;
+}
+
+/* Animación de saludo */
+@keyframes saludar {
+  0%   { transform: rotate(25deg); }
+  50%  { transform: rotate(5deg); }
+  100% { transform: rotate(25deg); }
+}
+
+/* Animación de entrada */
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

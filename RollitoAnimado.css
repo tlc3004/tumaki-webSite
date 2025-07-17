@@ -1,0 +1,26 @@
+/* Rollito animado */
+.rollito{
+  width: 7%;
+  position: absolute;
+  display: flex;
+  margin-top: 400px;
+  left: 90%;
+  z-index: 10;
+}
+/* MANITO */
+
+
+/* animacion de la manito */
+.saludo {
+  position: absolute;
+  display: flex;
+  margin-top: 425px;
+  z-index: 10;
+  left: 90%;
+  animation: saludar .6s linear infinite;
+}
+@keyframes saludar{
+  0%   { transform: rotateZ(-5deg); }
+  50%   { transform: rotateZ(25deg); }
+  100% { transform: rotateZ(-15deg); }
+}

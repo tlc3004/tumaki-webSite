@@ -1,0 +1,164 @@
+:root{
+  --primary-color: #e63946;
+  --secondary-color: #f1a208;
+  --text-color: #2b2d42;
+  --shadow-medium: 0 4px 15px rgba(0, 0, 0, 0.2);
+  --border-radius: 12px;
+  --transition: all 0.3s ease;
+}
+/* ===== ESTRUCTURA GENERAL ===== */
+.informacion-container {
+  background: #fff;
+  max-width: 800px;
+  margin:10px auto;
+  padding: 1rem;
+ border-radius: var(--border-radius);
+}
+
+h2 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+h3 {
+  color: var(--primary-color);
+  margin-top: 1rem;
+}
+
+
+.maki{
+  margin-left: 20%;
+  border-radius: 5%;
+  border:2px solid #b80045;
+  box-shadow: 0 0#c3004d;
+}
+/* ===== TEXTO DEL COMENTARIO ===== */
+.texto {
+ width: 100%;
+  padding: 1rem;
+  border: 2px solid #e9ecef;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  transition: var(--transition);
+  font-family: inherit;
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* ===== SECCIONES DE INFORMACIÓN ===== */
+.informacion-container section {
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-light);
+  margin-bottom: 2rem;
+}
+
+.informacion-container p {
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.informacion-container strong {
+  color: var(--primary-color);
+}
+
+.informacion-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.informacion-container li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.informacion-container li:last-child {
+  border-bottom: none;
+}
+
+/* ===== FORMULARIO DE SUSCRIPCIÓN ===== */
+form.informacion-container input,
+form.informacion-container button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: var(--border-radius);
+  border: 1px solid #ccc;
+  transition: var(--transition);
+}
+
+form.informacion-container button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form.informacion-container button:hover {
+  background-color: #c3004d;
+}
+
+/* ===== BOTÓN CERRAR / ATRÁS ===== */
+input,
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: var(--border-radius);
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+button:hover {
+  background-color: #b80045;
+}
+.modal-close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: .5rem;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+  transition: var(--transition);
+  border-radius: var(--border-radius);
+}
+
+.modal-close-button:hover {
+  background-color: #c3004d;
+}
+/* Rollito animado */
+.rollito{
+  width: 7%;
+  position: absolute;
+  display: flex;
+  margin-top: 400px;
+  left: 90%;
+  z-index: 10;
+}
+/* MANITO */
+
+
+/* animacion de la manito */
+.saludo5 {
+  position: absolute;
+  display: flex;
+  margin-top: 425px;
+  z-index: 10;
+  left: 90%;
+  animation: saludar .6s linear infinite;
+}
+@keyframes saludar{
+  0%   { transform: rotateZ(-5deg); }
+  50%   { transform: rotateZ(25deg); }
+  100% { transform: rotateZ(-15deg); }
+}
