@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const slider = document.getElementById('slider-rollitos');
 
   let desplazamiento = 0;
-  const tiempoAnimacion = 100; // en ms
-  const intervalo = 2400; // cada 2 segundos
+  const tiempoAnimacion = 10000; // en ms
+  const intervalo = 15000; // en ms
 
   setInterval(() => {
     const firstChild = slider.firstElementChild;
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Aplica transición y desplaza el slider
     slider.style.transition = `transform ${tiempoAnimacion}ms ease`;
-    slider.style.transform = `translateX(-${width}%)`;
+    slider.style.transform = `translateX(-${width}px)`; // usa px, no %
 
     // Después de la animación, reseteamos y movemos el primer hijo al final
     setTimeout(() => {

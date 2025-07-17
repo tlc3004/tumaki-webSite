@@ -347,7 +347,7 @@ a:hover{
 
 
 /* ===== RESPONSIVE DESIGN - TUMAKI STYLE ===== */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   header {
     flex-direction: column;
     align-items: center;
@@ -373,15 +373,15 @@ a:hover{
   }
 
   .nav-buttons button {
-    width: 100%;
+    width: 50%;
     font-size: 1rem;
   }
 
   .rollito,
   .saludo {
     width: 50px;
-    left: 70%;
-    margin-top: 320px;
+    left: 80%;
+    margin-top: 520px;
   }
 
   .slider-container {
@@ -447,7 +447,7 @@ a:hover{
 }
 
 
-
+ */
 
 
 

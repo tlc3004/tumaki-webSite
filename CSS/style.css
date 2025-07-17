@@ -112,7 +112,7 @@ header h1:hover {
   position: relative;
   display: flex;
   gap: 1.2rem;
-  animation: deslizar 45s linear  infinite ; 
+  animation: deslizar 15s linear infinite ; 
 }
 
 .slider-rollitos img {
@@ -132,7 +132,7 @@ header h1:hover {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-45%);
+    transform: translateX(-50%);
   }
 }
 
@@ -309,7 +309,7 @@ a:hover{
 
 
 /* RESPONSIVE FIX — para celulares y tablets */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   header {
     flex-direction: column;
     align-items: flex-start;
@@ -365,4 +365,4 @@ a:hover{
 
 
 
-
+ */
