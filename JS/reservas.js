@@ -4,13 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const sliderContainer = document.getElementById('slider-reservas');
 
   // 🎵 Sonido de entrada
-  const audio = document.querySelector('.sfx-chime');
-  if (audio) {
-    audio.volume = 0.1;
-    audio.play().catch(() => {
-      console.log("🔕 El navegador bloqueó el autoplay. Espera interacción.");
-    });
-  }
+  // const audio = document.querySelector('.sfx-chime');
+  // if (audio) {
+  //   audio.volume = 0.1;
+  //   audio.play().catch(() => {
+  //     console.log("🔕 El navegador bloqueó el autoplay. Espera interacción.");
+  //   });
+  // }
 
   // 📋 Formulario de reserva
   if (form) {
@@ -30,8 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       localStorage.setItem("reservaTumaki", JSON.stringify(reserva));
 
-      const chime = new Audio("SOUNDS/notification-3-125767.mp3");
-      chime.play();
+      
 
       setTimeout(() => {
         window.location.href = "boleta-reserva.html";
@@ -55,8 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       localStorage.setItem("reservaTumaki", JSON.stringify(datosReserva));
 
-      const chime = new Audio("SOUNDS/notification-3-125767.mp3");
-      chime.play();
+
 
       setTimeout(() => {
         window.location.href = "boleta-reserva.html";

@@ -14,10 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
   // Opcional: puedes mostrar el número de reserva con fecha
-  const numeroReserva = `#TKM-${new Date().getFullYear()}${String(Math.random()).slice(2, 6)}`;
-  document.querySelector(".reserva-numero").textContent = numeroReserva;
 
   // Reproduce sonido
-  const sonido = new Audio("SOUNDS/notification-3-125767.mp3");
-  sonido.play();
+  
 });

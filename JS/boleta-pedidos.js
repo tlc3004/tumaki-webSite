@@ -2,10 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const pedidos = JSON.parse(localStorage.getItem("pedidos")) || [];
   const contenedor = document.getElementById("detalle-pedido");
 
-  if (!pedidos.length) {
-    contenedor.innerHTML = `<p class="mensaje-vacio">⚠️ No hay productos en tu pedido.</p>`;
-    return;
-  }
 
   let total = 0;
 

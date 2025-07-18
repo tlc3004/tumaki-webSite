@@ -112,7 +112,7 @@ header h1:hover {
   position: relative;
   display: flex;
   gap: 1.2rem;
-  animation: deslizar 15s linear infinite ; 
+  animation: deslizar 20s linear infinite forwards; 
 }
 
 .slider-rollitos img {
@@ -120,7 +120,7 @@ header h1:hover {
   margin: 10px 10px 30px 10px;
   flex-shrink: 0;
   filter: drop-shadow(0 0 3px #ffcc00aa);
-  animation: subirBajar 2s  infinite ease;
+  animation: subirBajar 2.5s  infinite ease;
 }
 
 .slider-rollitos img:hover {
