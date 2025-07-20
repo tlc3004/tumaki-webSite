@@ -347,16 +347,16 @@ a:hover{
 
 
 /* ===== RESPONSIVE DESIGN - TUMAKI STYLE ===== */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   header {
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: center;
   }
 
   header h1 {
-    font-size: 2.2rem;
+    font-size: .2rem;
     text-align: center;
   }
 
@@ -373,7 +373,7 @@ a:hover{
   }
 
   .nav-buttons button {
-    width: 50%;
+    width: 10%;
     font-size: 1rem;
   }
 
@@ -429,7 +429,7 @@ a:hover{
 
 @media (max-width: 480px) {
   header h1 {
-    font-size: 1.6rem;
+    font-size: .6rem;
   }
 
   header h2 {
@@ -437,7 +437,7 @@ a:hover{
   }
 
   .nav-buttons button {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem .5rem;
     font-size: 0.9rem;
   }
 
@@ -447,7 +447,7 @@ a:hover{
 }
 
 
- */
+
 
 
 
