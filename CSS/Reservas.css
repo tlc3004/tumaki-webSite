@@ -20,7 +20,7 @@ body{
 }
 
 .reservas-container {
-  max-width: 700px;
+  max-width: 500px;
   margin:0 auto;
   padding: 2rem;
   background: #fff;
@@ -29,8 +29,12 @@ body{
 }
 
 .reservas-container h3 {
-  text-align: center;
-  margin-bottom: 2rem;
+   max-width: 300px;
+  font-family: inherit;
+  font-size: .9rem;
+   font-weight: 500;
+  text-align: left;
+  margin: 1rem;
   color: var(--primary-color);
 }
 
@@ -110,8 +114,8 @@ form button:disabled {
 }
 
 #slider-imagen {
-  width: 100%;
-  max-width: 100%;
+  width: 70%;
+  max-width: 90%;
   height: 50%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
