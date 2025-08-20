@@ -162,3 +162,62 @@ button:hover {
   50%   { transform: rotateZ(25deg); }
   100% { transform: rotateZ(-15deg); }
 }
+
+@media (min-width: 768px) {
+  body {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .rollito{
+  width: 7%;
+  position: absolute;
+  display: flex;
+  margin-top: 400px;
+  left: 90%;
+  z-index: 10;
+}
+/* MANITO */
+
+
+/* animacion de la manito */
+.saludo5 {
+  position: absolute;
+  display: flex;
+  margin-top: 425px;
+  z-index: 10;
+  left: 90%;
+  animation: saludar .6s linear infinite;
+}
+}
+
+@media (min-width: 460px) {
+
+  .maki{
+    position: relative;
+    left: -20%;
+    right: 0;
+  }
+
+
+  .rollito{
+  width: 7%;
+  position: absolute;
+  display: flex;
+  margin-top: 380px;
+  left: 90%;
+  overflow: hidden;
+  z-index: 10;
+}
+/* MANITO */
+
+
+/* animacion de la manito */
+.saludo5 {
+  position: absolute;
+  display: flex;
+  margin-top: 420px;
+  z-index: 10;
+  left: 90%;
+  animation: saludar .6s linear infinite;
+}
+}
